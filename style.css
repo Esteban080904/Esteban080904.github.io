@@ -1,0 +1,176 @@
+#links {
+  text-align: right;
+  padding: 25px;
+}
+#links a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
+#links a:hover {
+  text-decoration: underline;
+}
+
+#image, #links a, #buttons {
+  padding: 20px;
+}
+
+#main {
+  height: 75vh;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#main #search-bar {
+  border: 1px solid rgb(172, 171, 171);
+  display: flex;
+  height: 50px;
+  border-radius: 30px;
+  padding: 15px;
+  align-items: center;
+}
+#main #search-bar:hover {
+  box-shadow: 0 0 10px darkgray;
+}
+#main #search-bar input {
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+#main #buttons {
+  display: flex;
+  justify-content: center;
+}
+#main #buttons input {
+  border: none;
+  color: black;
+  background-color: rgb(215, 212, 212);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+#main #buttons input:hover {
+  background-color: rgb(153, 153, 153);
+}
+@media (min-width: 800px) {
+  #main #search-bar, #main #search-bar input {
+    width: 700px;
+  }
+}
+@media (max-width: 799px) {
+  #main #search-bar, #main #search-bar input {
+    width: 88vw;
+  }
+}
+
+#header-advanced {
+  text-align: right;
+  padding: 20px;
+}
+#header-advanced img {
+  padding-left: 20px;
+  position: absolute;
+  left: 0px;
+}
+#header-advanced a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  padding-right: 10px;
+}
+#header-advanced a:hover {
+  text-decoration: underline;
+}
+
+#advanced-subheader {
+  border-bottom: 1px solid rgb(188, 188, 188);
+}
+#advanced-subheader h2 {
+  padding-top: 28px;
+  padding-left: 37px;
+  padding-bottom: 17px;
+  color: rgb(230, 103, 57);
+  font-size: 21px;
+}
+
+#advanced-main {
+  padding: 40px;
+}
+#advanced-main #left-head {
+  font-size: 18px;
+  width: 180px;
+  text-align: left;
+  padding-bottom: 15px;
+  text-decoration: none;
+}
+#advanced-main #right-head {
+  font-size: 18px;
+  font-weight: bold;
+}
+#advanced-main .to-do {
+  padding-left: 10px;
+  color: black;
+  font-size: 13px;
+  line-height: 115%;
+}
+#advanced-main .to-do b {
+  font-size: 13px;
+}
+#advanced-main .text-description {
+  width: 170px;
+  font-size: 14px;
+  word-break: none;
+  word-wrap: none;
+}
+#advanced-main .field {
+  width: 100%;
+}
+#advanced-main #double-field {
+  display: flex;
+  align-items: center;
+}
+#advanced-main #double-field input {
+  width: 50%;
+}
+#advanced-main #double-field div {
+  font-size: 14px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+#advanced-main .input-field {
+  padding: 10px;
+}
+@media (min-width: 1100px) {
+  #advanced-main .input-field {
+    width: 600px;
+  }
+}
+@media (max-width: 1099px) {
+  #advanced-main #right-head, #advanced-main .to-do {
+    opacity: 0%;
+    width: 1000px;
+    position: absolute;
+    background-color: red;
+  }
+  #advanced-main .input-field {
+    width: 55vw;
+  }
+}
+#advanced-main #button {
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+#advanced-main #button input {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 5px;
+  background-color: rgb(5, 146, 234);
+  border: 3px solid rgb(5, 146, 234);
+  border-radius: 2px;
+}
+
+/*# sourceMappingURL=style.css.map */
